@@ -13,6 +13,7 @@ export default function Coin(props) {
 
   return (
     <div className="items" id="items">
+      
       <img className="im" src={item.image} width="10%"></img>
       <h3>{item.name}</h3>
       <div>Price: ${Math.round(item.priceUsd * 100) / 100}</div>
