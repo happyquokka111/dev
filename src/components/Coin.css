@@ -1,0 +1,13 @@
+.button {
+  border-radius: 5px;
+
+  padding: 1%;
+}
+.im {
+  padding: 10%;
+}
+
+.items {
+  display: flexbox;
+  align-content: center;
+}
